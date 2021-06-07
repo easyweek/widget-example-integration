@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com/easyweek/widget-example.git"
+    "url": "git@github.com/easyweek/widget-example-integration.git"
   },
   "scripts": {
     "dev": "yarn dev:e2e",
