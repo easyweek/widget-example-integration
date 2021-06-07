@@ -40,12 +40,12 @@ export default {
             {
                 hid: 'twitter:image',
                 name: 'twitter:image',
-                content: '~/assets/img/easyweek-widget.png'
+                content: '/easyweek-widget.png'
             },
             {
                 hid: 'og:image',
                 name: 'og:image',
-                content: '~/assets/img/easyweek-widget.png'
+                content: '/easyweek-widget.png'
             }
         ],
         link: [
