@@ -25,6 +25,27 @@ export default {
                 name: 'viewport',
                 content:
                     'width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no, shrink-to-fit=no'
+            },
+            {
+                hid: 'robots',
+                name: 'robots',
+                content: 'max-image-preview:large'
+            },
+            { name: 'og:type', property: 'og:type', content: 'website' },
+            {
+                hid: 'twitter:card',
+                name: 'twitter:card',
+                content: 'summary_large_image'
+            },
+            {
+                hid: 'twitter:image',
+                name: 'twitter:image',
+                content: '~/assets/img/easyweek-widget.png'
+            },
+            {
+                hid: 'og:image',
+                name: 'og:image',
+                content: '~/assets/img/easyweek-widget.png'
             }
         ],
         link: [
