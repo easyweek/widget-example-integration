@@ -1,0 +1,31 @@
+/node_modules
+/public/.idea
+.nuxt
+dist
+.env
+npm-debug.log
+yarn-error.log
+.idea
+*.iml
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+package-lock.json
+.cache/
+.config
+.hhvm.hhbc
+.local
+.yalc
+yalc.lock

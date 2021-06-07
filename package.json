@@ -1,0 +1,35 @@
+{
+  "name": "widget_integration_examples",
+  "version": "0.1.0",
+  "description": "Easyweek widget integration examples",
+  "main": "index.js",
+  "author": "<illjah@bk.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/easyweek/widget-example.git"
+  },
+  "scripts": {
+    "dev": "yarn dev:e2e",
+    "dev:e2e": "WIDGET_URL=https://e2e-widget.easyweek.io nuxt",
+    "dev:live": "WIDGET_URL=https://widget.easyweek.io nuxt",
+    "build": "WIDGET_URL=https://widget.easyweek.io nuxt build",
+    "generate": "WIDGET_URL=https://widget.easyweek.io nuxt generate",
+    "start": "nuxt start"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.10.0",
+    "prettier": "^2.3.1"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.6",
+    "prismjs": "^1.23.0"
+  }
+}
