@@ -1,16 +1,22 @@
-# Development
+# EasyWeek Widget Examples
 
-```bash
-yarn dev
-```
+Collection of example applications with the EasyWeek Book now widget installed
 
-or
+## Live on Netlify
+
+[https://csb-tptcc.netlify.app/](https://csb-tptcc.netlify.app/)
+
+## CodeSandbox
+
+[![Edit easyweek-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/easyweek-example-8vdpq?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
+
+### Development
 
 ```bash
 yarn dev:live
 ```
 
-# Production
+### Production
 
 ```bash
 yarn generate

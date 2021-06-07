@@ -10,13 +10,9 @@
             <div class="uk-navbar-right">
                 <ol class="uk-navbar-nav">
                     <li
+                        v-if="!isActive(page)"
                         v-for="page in pages"
                         :key="page.id"
-                        :class="{
-                            'uk-active': hasChildren(page)
-                                ? isActiveParent(page)
-                                : isActive(page)
-                        }"
                     >
                         <template v-if="hasChildren(page)">
                             <a href="">
@@ -58,54 +54,9 @@ export default {
         pages() {
             return [
                 {
-                    name: 'Default',
+                    name: '‹ All examples',
                     id: 'default',
-                    children: [
-                        { name: 'Default', href: '/', id: 'default' },
-                        { name: 'Left side', href: '/left', id: 'left' },
-                        {
-                            name: 'Without text',
-                            href: '/no-text',
-                            id: 'no-text'
-                        },
-                        {
-                            name: 'Custom icon',
-                            href: '/custom-icon',
-                            id: 'custom-icon'
-                        }
-                    ]
-                },
-                {
-                    name: 'Custom trigger',
-                    id: 'trigger',
-                    children: [
-                        {
-                            name: 'Additional button',
-                            href: '/trigger',
-                            id: 'trigger'
-                        },
-                        {
-                            name: 'Without default button',
-                            href: '/no-button',
-                            id: 'no-button'
-                        }
-                    ]
-                },
-                {
-                    name: 'Custom layout',
-                    id: 'layout',
-                    children: [
-                        {
-                            name: 'Built in',
-                            href: '/built-in',
-                            id: 'built-in'
-                        },
-                        {
-                            name: 'Full page',
-                            href: '/fullpage',
-                            id: 'fullpage'
-                        }
-                    ]
+                    href: '/'
                 }
             ]
         },

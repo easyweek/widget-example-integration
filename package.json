@@ -10,8 +10,6 @@
     "url": "git@github.com/easyweek/widget-example-integration.git"
   },
   "scripts": {
-    "dev": "yarn dev:e2e",
-    "dev:e2e": "WIDGET_URL=https://e2e-widget.easyweek.io nuxt",
     "dev:live": "WIDGET_URL=https://widget.easyweek.io nuxt",
     "build": "WIDGET_URL=https://widget.easyweek.io nuxt build",
     "generate": "WIDGET_URL=https://widget.easyweek.io nuxt generate",

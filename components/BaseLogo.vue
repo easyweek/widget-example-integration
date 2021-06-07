@@ -1,5 +1,10 @@
 <template>
-    <span>ACME Company</span>
+    <span
+        ><img
+            src="~/assets/svg/easyweek_sign_wbg.svg"
+            width="50"
+            alt="EasyWeek"
+    /></span>
 </template>
 
 <script>

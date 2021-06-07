@@ -1,23 +1,15 @@
 <template>
     <div>
-        <BaseNav />
+        <h1 class="uk-heading-small">On-page built in</h1>
 
-        <div class="uk-section">
-            <div class="uk-container">
-                <iframe
-                    :src="widgetUrl"
-                    style="border: 0"
-                    frameborder="0"
-                    class="widget-frame"
-                ></iframe>
-            </div>
-        </div>
+        <iframe
+            :src="widgetUrl"
+            style="border: 0"
+            frameborder="0"
+            class="widget-frame"
+        ></iframe>
 
-        <div class="uk-section">
-            <div class="uk-container">
-                <BaseCode :code="code" />
-            </div>
-        </div>
+        <BaseCode :code="code" />
     </div>
 </template>
 
