@@ -1,6 +1,6 @@
 # EasyWeek Widget Examples
 
-Collection of example applications with the EasyWeek Book now widget installed
+Collection of example cases with the EasyWeek widget installed.
 
 ## Live on Netlify
 

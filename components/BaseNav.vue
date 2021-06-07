@@ -40,7 +40,13 @@
                     </li>
                 </ol>
 
-                <slot name="right"></slot>
+                <slot name="right"
+                    ><a
+                        href="https://github.com/easyweek/widget-example-integration"
+                        target="_blank"
+                        >GitHub</a
+                    ></slot
+                >
             </div>
         </nav>
     </div>
