@@ -61,6 +61,15 @@
                     </p>
                 </div>
             </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">Use multiple buttons for each service</h3>
+                    <img src="~/assets/img/multi-buttons.png" width="240" />
+                    <p>
+                        <NLink to="/multi-buttons">show code</NLink>
+                    </p>
+                </div>
+            </div>
         </div>
         <h2 class="uk-heading-divider">On-page Integration</h2>
         <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
