@@ -29,6 +29,8 @@ export default {
 
             return [
                 `<iframe src="${widgetUrl}/company-slug" style="border: 0" frameborder="0" class="widget-frame"></iframe>`,
+                '<script>;(function(w,l){w.addEventListener("message",function(e){if(/easyweek\\.io/.test(e.origin)&&data.type==="redirect"){l.replace(e.data.url)}})})(window,location);</scr' +
+                    'ipt>',
                 '<style>',
                 '    .widget-frame {',
                 '       display: block;',

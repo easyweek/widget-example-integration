@@ -38,13 +38,10 @@ export default {
             const widgetUrl = process.env.WIDGET_URL
 
             return [
-                `<iframe
-    src="${widgetUrl}/company-slug"
-    style="border: 0"
-    frameborder="0"
-    class="widget-full"
-></iframe>
-<style>
+                `<iframe src="${widgetUrl}/company-slug" style="border: 0" frameborder="0" class="widget-full"></iframe>`,
+                '<script>;(function(w,l){w.addEventListener("message",function(e){if(/easyweek\\.io/.test(e.origin)&&data.type==="redirect"){l.replace(e.data.url)}})})(window,location);</scr' +
+                    'ipt>',
+                `<style>
 .widget-full {
     display: block;
     width: 100%;
