@@ -98,7 +98,7 @@ export default {
                 '            if (!button) return',
                 '',
                 '            widget.setProduct(',
-                "                button.getAttribute('data-ew-service')",
+                "                button.getAttribute('data-ew-service'),",
                 "                button.getAttribute('data-ew-location')",
                 '            )',
                 '        }',
