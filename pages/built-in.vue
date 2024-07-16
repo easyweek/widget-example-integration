@@ -6,6 +6,7 @@
             :src="widgetUrl"
             style="border: 0"
             frameborder="0"
+            referrerpolicy="origin"
             class="widget-frame"
         ></iframe>
 
@@ -28,8 +29,8 @@ export default {
             const widgetUrl = process.env.WIDGET_URL
 
             return [
-                `<iframe src="${widgetUrl}/company-slug" style="border: 0" frameborder="0" class="widget-frame"></iframe>`,
-                '<script>;(function(w,l){w.addEventListener("message",function(e){if(/easyweek\\./.test(e.origin)&&e.data&&e.data.type==="redirect"){l.replace(e.data.url)}})})(window,location);</scr' +
+                `<iframe src="${widgetUrl}/company-slug" style="border: 0" frameborder="0" referrerpolicy="origin" class="widget-frame"></iframe>`,
+                '<script>;(function(w,l){w.addEventListener("message",function(e){if(/(easyweek|eswk)\\./.test(e.origin)&&e.data&&e.data.type==="redirect"){l.replace(e.data.url)}})})(window,location);</scr' +
                     'ipt>',
                 '<style>',
                 '    .widget-frame {',
