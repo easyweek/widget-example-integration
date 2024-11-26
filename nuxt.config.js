@@ -70,6 +70,7 @@ export default {
     },
 
     env: {
-        WIDGET_URL: process.env.WIDGET_URL
+        WIDGET_URL: process.env.WIDGET_URL,
+        BOOKING_WIDGET_URL: process.env.BOOKING_WIDGET_URL,
     }
 }

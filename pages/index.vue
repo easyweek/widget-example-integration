@@ -92,6 +92,27 @@
                 </div>
             </div>
         </div>
+        <h2 class="uk-heading-divider">New Booking Widget Integration</h2>
+        <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">Built in</h3>
+                    <img src="~/assets/img/built-in.png" width="240" />
+                    <p>
+                        <NLink to="/built-in-booking">show code</NLink>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">Full Page</h3>
+                    <img src="~/assets/img/fullpage.png" width="240" />
+                    <p>
+                        <NLink to="/fullpage-booking">show code</NLink>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 

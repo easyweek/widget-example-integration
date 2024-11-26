@@ -10,9 +10,9 @@
     "url": "git@github.com/easyweek/widget-example-integration.git"
   },
   "scripts": {
-    "dev:live": "WIDGET_URL=https://widget.easyweek.io nuxt",
-    "build": "WIDGET_URL=https://widget.easyweek.io nuxt build",
-    "generate": "WIDGET_URL=https://widget.easyweek.io nuxt generate",
+    "dev:live": "BOOKING_WIDGET_URL=https://booking.easyweek.io WIDGET_URL=https://widget.easyweek.io nuxt",
+    "build": "BOOKING_WIDGET_URL=https://booking.easyweek.io WIDGET_URL=https://widget.easyweek.io nuxt build",
+    "generate": "BOOKING_WIDGET_URL=https://booking.easyweek.io WIDGET_URL=https://widget.easyweek.io nuxt generate",
     "start": "nuxt start"
   },
   "devDependencies": {
