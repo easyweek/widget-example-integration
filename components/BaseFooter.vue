@@ -1,10 +1,10 @@
 <template>
     <div class="uk-section uk-padding-remove-top">
         <div class="uk-container">
-            © 2021 Awescode GmbH -
+            © 2025 Awescode GmbH -
             <a
-                href="https://easyweek.io/biz/?utm_source=github&utm_medium=footer&utm_campaign=widget-example"
-                >free salon software</a
+                href="https://easyweek.io/solutions/beauty-salon?utm_source=github&utm_medium=footer&utm_campaign=widget-example"
+                >Beauty Salon Software</a
             >
             by EasyWeek
         </div>
