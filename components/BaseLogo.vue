@@ -1,9 +1,6 @@
 <template>
     <span
-        ><img
-            src="~/assets/svg/easyweek_sign_wbg.svg"
-            width="50"
-            alt="EasyWeek"
+        ><img src="~/assets/svg/logo-easyweek.svg" height="60" alt="EasyWeek"
     /></span>
 </template>
 

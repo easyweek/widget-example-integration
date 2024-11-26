@@ -88,7 +88,7 @@ export default {
                 '        var widget = new EasyWeekWidget({',
                 `            url: '${widgetUrl}/company-slug',`,
                 '            button: false',
-                '        })',
+                '        });',
                 '',
                 '        function onServiceClick($event) {',
                 "            var button = $event.target.matches('data-ew-service')",
@@ -101,9 +101,9 @@ export default {
                 "                button.getAttribute('data-ew-service'),",
                 "                button.getAttribute('data-ew-location')",
                 '            )',
-                '        }',
+                '        };',
                 '',
-                "        document.addEventListener('click', onServiceClick)",
+                "        document.addEventListener('click', onServiceClick);",
                 '    })',
                 '</scr' + 'ipt>'
             ].join('\n')
