@@ -35,7 +35,7 @@ export default {
                 '<style>',
                 '    .widget-frame {',
                 '       display: block;',
-                '       height: 600px;',
+                '       height: 700px;',
                 '       width: 100%;',
                 '       max-width: 550px;',
                 '       margin: 25px auto;',
@@ -53,7 +53,7 @@ export default {
 <style>
 .widget-frame {
     display: block;
-    height: 600px;
+    height: 700px;
     width: 100%;
     max-width: 550px;
     margin: 25px auto;
