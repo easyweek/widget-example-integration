@@ -1,6 +1,10 @@
 <template>
     <span
-        ><img src="~/assets/svg/logo-easyweek.svg" height="60" alt="EasyWeek"
+        ><img
+            src="~/assets/svg/logo-easyweek.svg"
+            height="60"
+            alt="EasyWeek"
+            style="height: 40px !important"
     /></span>
 </template>
 
